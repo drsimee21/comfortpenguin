@@ -1,0 +1,36 @@
+<svg width="1100" height="1300" viewBox="0 0 1100 1300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Comfort Penguin product image placeholder</title>
+  <desc id="desc">A soft placeholder illustration showing where to place the uploaded Comfort Penguin image.</desc>
+  <rect width="1100" height="1300" rx="48" fill="#fffaf1"/>
+  <path d="M170 208C245 123 365 88 523 105C721 126 861 234 925 399C989 563 966 772 846 964C726 1157 543 1220 364 1140C185 1060 89 881 88 672C87 463 95 293 170 208Z" fill="#f0dfc8"/>
+  <path d="M547 244C713 244 819 404 819 651C819 898 713 1058 547 1058C381 1058 275 898 275 651C275 404 381 244 547 244Z" fill="#342d28"/>
+  <path d="M548 376C670 376 748 499 748 690C748 881 670 1004 548 1004C426 1004 348 881 348 690C348 499 426 376 548 376Z" fill="#fff8ed"/>
+  <path d="M416 528C445 528 468 505 468 476C468 447 445 424 416 424C387 424 364 447 364 476C364 505 387 528 416 528Z" fill="#fffaf1"/>
+  <path d="M678 528C707 528 730 505 730 476C730 447 707 424 678 424C649 424 626 447 626 476C626 505 649 528 678 528Z" fill="#fffaf1"/>
+  <path d="M420 493C432 493 442 483 442 471C442 459 432 449 420 449C408 449 398 459 398 471C398 483 408 493 420 493Z" fill="#342d28"/>
+  <path d="M674 493C686 493 696 483 696 471C696 459 686 449 674 449C662 449 652 459 652 471C652 483 662 493 674 493Z" fill="#342d28"/>
+  <path d="M501 536C525 558 569 558 593 536" stroke="#8b2f2d" stroke-width="12" stroke-linecap="round"/>
+  <path d="M498 650C530 620 566 620 598 650C631 681 626 734 548 778C470 734 465 681 498 650Z" fill="#8b2f2d"/>
+  <rect x="396" y="814" width="304" height="122" rx="42" fill="#ead1cc"/>
+  <path d="M431 876H665" stroke="#8b2f2d" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 26"/>
+  <text x="550" y="1162" text-anchor="middle" fill="#6f6258" font-family="Arial, sans-serif" font-size="32" font-weight="700">Replace with your uploaded Comfort Penguin image</text>
+  <text x="550" y="1208" text-anchor="middle" fill="#6f6258" font-family="Arial, sans-serif" font-size="25">Save it as assets/images/comfort-penguin.png</text>
+  <g>
+    <path d="M144 391H294" stroke="#8b2f2d" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="125" cy="391" r="48" fill="#8b2f2d"/>
+    <text x="125" y="404" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="38">&#9825;</text>
+    <text x="78" y="320" fill="#342d28" font-family="Georgia, serif" font-size="34" font-weight="700">Comfort Tag</text>
+  </g>
+  <g>
+    <path d="M821 648H973" stroke="#8b2f2d" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="994" cy="648" r="48" fill="#8b2f2d"/>
+    <text x="994" y="661" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="38">&#9825;</text>
+    <text x="804" y="592" fill="#342d28" font-family="Georgia, serif" font-size="34" font-weight="700">Memory Pouch</text>
+  </g>
+  <g>
+    <path d="M724 965H913" stroke="#8b2f2d" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="934" cy="965" r="48" fill="#8b2f2d"/>
+    <text x="934" y="978" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="38">&#9825;</text>
+    <text x="742" y="1042" fill="#342d28" font-family="Georgia, serif" font-size="34" font-weight="700">Weighted Bottom</text>
+  </g>
+</svg>
