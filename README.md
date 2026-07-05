@@ -20,10 +20,10 @@ A cozy static website for Comfort Penguin Co. built for GitHub Pages.
 This site is configured for:
 
 ```text
-comfort-penguin.com
+comfortpenguin.com
 ```
 
-After pushing to GitHub, enable GitHub Pages for the repository and set the custom domain to `comfort-penguin.com`.
+After pushing to GitHub, enable GitHub Pages for the repository and set the custom domain to `comfortpenguin.com`.
 
 ## Forms
 
