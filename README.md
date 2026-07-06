@@ -1,6 +1,6 @@
-# Comfort Penguin Co.
+# Comfort Penguins
 
-A cozy static website for Comfort Penguin Co. built for GitHub Pages.
+A cozy static website for Comfort Penguins built for GitHub Pages.
 
 ## Structure
 
