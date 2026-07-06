@@ -1283,7 +1283,19 @@ body.thank-you-open {
 
 @media (max-width: 768px) {
   .hero-brand {
+    order: 1;
     transform: translateY(-8px);
+  }
+
+  .product-showcase {
+    order: 2;
+    justify-self: center;
+    width: 94%;
+    margin: 0 auto 8px;
+  }
+
+  .hero-copy {
+    order: 3;
   }
 }
 
