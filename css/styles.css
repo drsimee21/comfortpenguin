@@ -1281,6 +1281,12 @@ body.thank-you-open {
   }
 }
 
+@media (max-width: 768px) {
+  .hero-brand {
+    transform: translateY(-8px);
+  }
+}
+
 [data-formspace] button,
 [data-formspace] button[type="submit"],
 [data-formspace] input[type="submit"],
