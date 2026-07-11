@@ -354,13 +354,20 @@ h1 {
   padding: clamp(8px, 1.5vw, 18px);
 }
 
+.product-frame picture {
+  display: block;
+  width: 100%;
+}
+
 .product-image {
   width: 100%;
+  height: auto;
   max-height: 100%;
   object-fit: contain;
 }
 
 .features,
+.seo-section,
 .waitlist-section,
 .survey-main {
   width: min(calc(100% - 32px), var(--max-width));
@@ -469,6 +476,92 @@ h2 {
   position: relative;
   margin: 0;
   color: var(--muted);
+}
+
+.seo-section {
+  padding: clamp(62px, 8vw, 104px) 0;
+}
+
+.seo-section--soft {
+  position: relative;
+}
+
+.seo-section--soft::before {
+  position: absolute;
+  top: clamp(16px, 3vw, 30px);
+  bottom: clamp(16px, 3vw, 30px);
+  left: 50%;
+  z-index: -1;
+  width: 100vw;
+  border-top: 1px solid rgba(169, 145, 208, 0.12);
+  border-bottom: 1px solid rgba(169, 145, 208, 0.12);
+  background:
+    radial-gradient(circle at 18% 24%, rgba(255, 255, 255, 0.76), transparent 22rem),
+    radial-gradient(circle at 84% 42%, rgba(169, 145, 208, 0.14), transparent 24rem),
+    linear-gradient(135deg, rgba(255, 250, 245, 0.78), rgba(238, 232, 247, 0.34));
+  content: "";
+  transform: translateX(-50%);
+}
+
+.info-grid,
+.faq-grid,
+.survey-context-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.info-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.info-grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.faq-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.info-card,
+.faq-card,
+.survey-context {
+  border: 1px solid rgba(169, 145, 208, 0.16);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(255, 250, 245, 0.98), rgba(238, 232, 247, 0.42)),
+    rgba(255, 250, 245, 0.9);
+  box-shadow: var(--soft-shadow);
+}
+
+.info-card,
+.faq-card {
+  padding: clamp(24px, 3vw, 30px);
+}
+
+.info-card h3,
+.faq-card h3 {
+  margin: 0 0 12px;
+  font-size: 1.35rem;
+}
+
+.info-card p,
+.faq-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.text-link {
+  color: var(--lavender-dark);
+  font-weight: 800;
+  text-decoration-color: rgba(155, 132, 196, 0.45);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.text-link:hover,
+.text-link:focus-visible {
+  color: var(--text);
+  text-decoration-color: var(--lavender);
 }
 
 .waitlist-section {
@@ -630,6 +723,28 @@ h2 {
 
 .survey-intro {
   margin-bottom: 42px;
+}
+
+.survey-context {
+  margin-bottom: 18px;
+  padding: clamp(24px, 4vw, 34px);
+}
+
+.survey-context h2 {
+  max-width: 640px;
+  font-size: clamp(1.9rem, 4vw, 2.75rem);
+}
+
+.survey-context-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 22px;
+}
+
+.survey-context-grid p {
+  margin: 0;
+  border-left: 3px solid rgba(169, 145, 208, 0.42);
+  color: var(--muted);
+  padding-left: 14px;
 }
 
 .survey-intro h1 {
@@ -1179,6 +1294,12 @@ body.thank-you-open {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .info-grid,
+  .info-grid--three,
+  .faq-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .waitlist-section {
     min-height: 0;
   }
@@ -1259,6 +1380,13 @@ body.thank-you-open {
   }
 
   .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-grid,
+  .info-grid--three,
+  .faq-grid,
+  .survey-context-grid {
     grid-template-columns: 1fr;
   }
 
