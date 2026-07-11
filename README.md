@@ -12,7 +12,10 @@ A cozy static website for Comfort Penguins built for GitHub Pages.
 - `js/confetti.js` - full-screen lavender, heart, circle, and penguin confetti
 - `js/penguins.js` - three-penguin waddle animation
 - `assets/images/` - product image assets
-- `assets/icons/` - reserved for favicon and social icons
+- `assets/icons/` - favicon and brand icons
+- `robots.txt` - crawler access rules and sitemap location
+- `sitemap.xml` - canonical page list for search engines
+- `llms.txt` - concise AI-readable brand and product summary
 - `CNAME` - custom domain for GitHub Pages
 
 ## Custom Domain
