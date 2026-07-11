@@ -398,6 +398,12 @@ h2 {
   font-size: clamp(2rem, 4vw, 3.35rem);
 }
 
+@media (min-width: 901px) {
+  #comfort-plush-title {
+    font-size: clamp(1.8rem, 3.45vw, 2.9rem);
+  }
+}
+
 .inline-heart {
   color: #ffffff;
   -webkit-text-stroke: 1.5px var(--lavender);
